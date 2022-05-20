@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/users/{id}": {
+      "name": "/users/{id}",
+      "lambdaFunction": "enolaUsers",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/friends/{id}": {
+      "name": "/friends/{id}",
+      "lambdaFunction": "enolaFriends",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/home/{id}": {
+      "name": "/home/{id}",
+      "lambdaFunction": "enolahome",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

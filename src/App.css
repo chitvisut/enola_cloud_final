@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+#map { /* The id of the container you passed to createMap */
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
+.circle-img-sm {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 80px;
+  height: 80px;
+}
+
+.friendlist{
+  position: relative
+}
